@@ -11,6 +11,7 @@ Food_Impacts <- read.csv("Food_Production.csv")
 # Define UI for application that draws a histogram
 ui <- fluidPage(theme = shinytheme("united"),
 
+ # To make the image work, I believe you need to save it to the working directory where this file is stored - within a folder titled "www"
   tags$figure(
     align = "left",
     tags$img(
